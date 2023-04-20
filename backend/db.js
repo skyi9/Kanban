@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const uri = "mongodb://localhost:27017/kanban"
+const uri = "mongodb+srv://ishandevenda1:mybackend@ishan-backend.1hyxtao.mongodb.net/?retryWrites=true&w=majority"
 
 const connect = async () => {
     await mongoose.connect(uri)
