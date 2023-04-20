@@ -1,7 +1,7 @@
 import axios from "axios"
 import { DELETEBOARDFAIL, DELETEBOARDREQ, DELETEBOARDSUCCESS, DELETETASKFAIL, DELETETASKREQ, DELETETASKSUCCESS, GETBOARDFAIL, GETBOARDREQ, GETBOARDSUCCESS, GETTASKFAIL, GETTASKREQ, GETTASKSUCCESS, POSTBOARDFAIL, POSTBOARDREQ, POSTBOARDSUCCESS, POSTTASKFAIL, POSTTASKSUCCESS, SETBOARDID, UPDATETASKFAIL, UPDATETASKREQ, UPDATETASKSUCCESS } from "../constants/counter"
 
-const uri = "http://localhost:5000/api"
+const uri = "https://kanban-backend-1uxtobqu0-drop-gmailcom.vercel.app/api"
 export const get_boards = () => {
     return async (dispatch) => {
         try {
